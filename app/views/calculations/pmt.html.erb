@@ -1,3 +1,16 @@
 <h1>Payment</h1>
 
+<form>
+  <label for="input1">Annual Interest Rate (percentage)</label>
+  <input type="text" id="input1" name="interest_rate">
+
+  <label for="input2">Total # of Payments</label>
+  <input type="text" id="input2" name="number_of_payments">
+
+  <label for="input3">Principal Amount</label>
+  <input type="text" id="input3" name="present_value">
+
+  <button type="submit">Submit</button>
+</form>
+
 <p>The monthly payment is $<%= @payment %>.</p>
